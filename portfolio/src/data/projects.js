@@ -1,0 +1,22 @@
+const G='https://github.com/sriramkrishnakadiyam/'
+export default [
+{name:'AI-Based Crop Advisory and Management System',emoji:'🌾',repo:G+'AI-Crop-Advisory-System',live:'https://ai-crop-advisory-system-csxm.vercel.app/',
+desc:'A web-based agricultural advisory system that supports farming decisions with crop recommendation, disease detection, fertilizer advisory, weather information and market price tracking.',
+tech:['HTML','CSS','JavaScript','Firebase','Firestore'],
+features:['Integrated AI chatbot for interactive agricultural assistance','Responsive dashboard with Firebase and Firestore data management','Crop recommendation, disease detection, fertilizer, weather and market price pages']},
+{name:'Instant Recipe Maker',emoji:'🍳',repo:G+'instantr',live:null,
+desc:'A full-stack application that generates recipes from the ingredients a user provides.',
+tech:['Next.js','React','MongoDB','FastAPI','Google Gemini 2.5 Flash','Firebase'],
+features:['FastAPI backend APIs for ingredient processing and recipe recommendations','Responsive Next.js and React frontend','MongoDB storage for recipes and user data']},
+{name:'Fruit Detection and Classification',emoji:'🍎',repo:null,live:null,
+desc:'A multi-class fruit classification model built on a labeled fruit dataset.',
+tech:['Python','TensorFlow','CNN','MobileNetV2'],
+features:['Transfer learning and data augmentation','Compared CNN-based models','79% accuracy with MobileNetV2']},
+{name:'Credit Risk Analysis',emoji:'📊',repo:G+'credit-risk-analysis',live:null,
+desc:'A machine learning project for credit risk classification, analyzing applicant information to support risk prediction.',
+tech:['Python','Flask','Machine Learning','HTML','CSS','JavaScript'],
+features:['Credit risk classification','Model training script (train_model.py)','Web interface with templates','Tests folder included']},
+{name:'Bus Ticket Booking System',emoji:'🚌',repo:G+'ticketbooking',live:null,
+desc:'A full-stack bus ticket booking web application with separate frontend and backend components.',
+tech:['React.js','Node.js','Express.js','MySQL','SQLite'],
+features:['Booking interface','Frontend and backend separation','Database integration (SQL schema included)']}]
